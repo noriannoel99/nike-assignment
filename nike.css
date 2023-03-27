@@ -1,0 +1,157 @@
+body {
+  width: 3420px;
+  height: 1990px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+#container {
+  width: 2362px;
+  height: 1594px;
+  border: 8px solid rgba(255, 255, 255, 1);
+  background: linear-gradient(
+    106.32deg,
+    rgba(255, 255, 255, 0.34) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 80px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+
+.left {
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+.middle {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-left: -350px;
+}
+
+.middle li {
+  font-size: 45px;
+  margin-right: 70px;
+  color: white;
+}
+
+.right {
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right img {
+  margin-right: 20px;
+}
+
+.right input {
+  font-size: 45px;
+  width: 250px;
+  height: 100px;
+  background-color: transparent;
+}
+
+.button {
+  background: rgba(255, 100, 165, 1);
+  height: 111px;
+  width: 297px;
+  border-radius: 24px;
+  font-size: 40px;
+  color: white;
+}
+
+#middle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nike-container {
+  margin-top: 150px;
+  width: 1900px;
+  height: 854px;
+  border: 8px solid rgba(255, 255, 255, 1);
+  border-radius: 380px;
+}
+
+.NIKE {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 500px;
+  line-height: 500px;
+  color: white;
+}
+
+.ni {
+  padding-left: 200px;
+  padding-top: 150px;
+}
+
+.ke {
+  padding-right: 250px;
+  padding-top: 150px;
+  z-index: 1;
+}
+
+.shoe {
+  margin-top: -1110px;
+  margin-left: 70px;
+}
+
+.big-nike {
+  margin-top: -525px;
+  margin-left: 90px;
+}
+
+#last-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+
+.button-1 {
+  background: rgba(71, 41, 255, 1);
+  margin-top: 150px;
+  margin-left: 220px;
+  height: 111px;
+  width: 470px;
+  border-radius: 24px;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ultra-mechanics {
+  width: 500px;
+  height: 120px;
+  color: white;
+  margin-right: 200px;
+}
+
+.ultra {
+  font-size: 44px;
+  line-height: 39px;
+}
+
+.info {
+  font-size: 32px;
+  color: rgba(158, 158, 158, 1);
+}
